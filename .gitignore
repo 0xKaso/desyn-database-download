@@ -3,7 +3,6 @@ node_modules/
 
 # Export data
 mongodb_export/
-mongodb_export_csv/
 
 # Environment
 .env

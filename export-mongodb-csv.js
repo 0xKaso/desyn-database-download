@@ -3,7 +3,7 @@ const { Parser } = require('json2csv');
 const fs = require('fs');
 const path = require('path');
 
-const uri = 'mongodb://kasoqian:kasoqian@127.0.0.1:27017/?authSource=admin';
+const uri = 'mongodb://admin:123456@127.0.0.1:27017/?authSource=admin';
 const dbName = 'dev';
 const outputDir = path.join(__dirname, 'mongodb_export_csv');
 
